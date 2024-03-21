@@ -35,8 +35,9 @@ h2,h1 {
 
 .navbar{
     display: flex;
-    flex-direction: row;
-    gap: 2em;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 1em;
     color: #2B722D;
 }
 
