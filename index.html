@@ -14,30 +14,52 @@
 
 <body>
     <header>
-        <h1>Matcha Tea</h1>
-        <img src="Assets/Tea.png" alt="logo matcha thé">
         <nav class="navbarheader">
-                <a href="index.html">Accueil</a>
-                <a href="histoire.html">Histoire</a>
-                <a href="apropos.html">À Propos</a>
-                <a href="vente.html">Vente</a>
-                <a href="contact.html">Contact</a>
-                <a href="connexion.html">Se Connecter</a>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="Assets/Tea.png" alt="logo matcha thé">
+                </a>
+            </div>
+            <div class="text-container">
+                <h1 id="logo">Matcha Tea</h1>
+            </div>
         </nav>
     </header>
-    <main>
-        <img src="Assets/Design sans titre.png" alt="photo de matcha tea">
+    <main class="main-container">
+        <div class="vertical-band">
+            <a href="histoire.html">Histoire</a>
+            <a href="apropos.html">A Propos</a>
+            <a href="Matcha1.css">Vente</a>
+            <a href="contact.html">Contact</a>
+            <a href="Matcha1.css">Se Connecter</a>
+        </div>
+        <div class="content-right">
+            <img class="img-index" src="Assets/Design sans titre.png" alt="photo de matcha tea">
+            </div>
+        </div>
     </main>
     <footer>
-        <nav class="navbar">       
-            <a href="index.html">Accueil</a>
-            <a href="histoire.html">Histoire</a>
-            <a href="apropos.html">À Propos</a>
-            <a href="vente.html">Vente</a>
-            <a href="contact.html">Contact</a>
-            <a href="connexion.html">Se Connecter</a>
-        </nav>
-    </footer>
+        <div class="footer-column">
+            <p class="footer-text"><strong>Navigation</strong><br/>   
+                <div class="nav-footer">       
+                    <a href="histoire.html">Histoire</a>
+                    <a href="apropos.html">A Propos</a>
+                    <a href="Matcha1.css">Vente</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="Matcha1.css">Se Connecter</a>
+                </div>  
+            </p>
+        </div>
+        <div class="footer-column middle">
+            <p class="footer-text"><strong>Bienvenue</strong><br/></p>
+            <div class="orange-rectangle">
+                <p>@Pseudo</p>
+            </div>
+            <p class="footer-text">Plateforme_2024</p>
+        </div>
+        <div class="footer-column">
+            <p class="footer-text"><strong>Coordonnées</strong><br/><br>8 Rue d’Hozier<br>13002<br>Marseille</p>
+        </div>
+    </footer>    
 </body>
-
 </html>
