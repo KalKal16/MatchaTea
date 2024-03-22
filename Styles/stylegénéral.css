@@ -11,7 +11,6 @@ header img {
     height: auto;  
 }
 
-
 h2,h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,7 +50,7 @@ h2,h1 {
     align-items: center;
     background-color: #F1EADE;
     color: #fff;
-    padding: 10px 20px;
+    padding: 1px 20px;
 }
 
 .text-container {
@@ -83,10 +82,11 @@ h2,h1 {
 
 .vertical-band {
     width: 12.5%; 
-    height: calc(100vh - -05vh);
+    height: calc(100vh - -05.5vh);
     background-color: #BD9E79; 
     display: flex; 
     flex-direction: column; 
+    margin-bottom: 300px;
 }
 
 .vertical-band a {
@@ -121,6 +121,7 @@ h2,h1 {
 
 .content-right {
     flex: 3;
+    margin-bottom: 220px;
 }
 
 .generated-text p {
@@ -130,10 +131,14 @@ h2,h1 {
 footer {
     background-color: #F1EADE;
     color: #fff; 
-    padding: 70px 0; 
+    padding: 10px 0; 
     display: flex; 
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
 }
+
 
 .footer-column {
     float: left;
@@ -166,7 +171,7 @@ footer {
 }
 img.img-index{
     width: 100%;
-    height: 100%;
+    height: 110%;
 }
 .footer-text strong {
     font-weight: bold;
@@ -189,4 +194,29 @@ img.img-index{
 
 .orange-rectangle p {
     margin: 0;
+}
+img.logo {
+    width: 130px;
+}
+.promo-banner {
+    background-color: #2B722D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    z-index: 0; /* Assure que la bannière est au-dessus du contenu */
+}
+
+.promo-banner img {
+    width: 40px; /* Ajustez la largeur de l'image selon vos besoins */
+    vertical-align: middle; /* Pour aligner l'image verticalement avec le texte */
+}
+
+.promo-banner p {
+    display: inline-block; /* Pour aligner le texte à côté de l'image */
+    margin: 0 0 0 10px; /* Ajoutez un espacement entre l'image et le texte */
+    font-size: 20px;
 }

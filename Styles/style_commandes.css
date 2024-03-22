@@ -1,0 +1,53 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-content {
+    display: flex;
+}
+
+.card-content img {
+    max-width: 5%;
+    height: auto; 
+    margin-right: 10px;
+}
+
+
+.text-content {
+    flex-grow: 1;
+}
+
+.text-content h2 {
+    margin-top: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container button {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #00ff37;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #8c2727;
+    color: #fff;
+}

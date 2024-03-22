@@ -17,7 +17,7 @@
 }
 
 .card img {
-    width: 100%; /* Les images occuperont toute la largeur de la carte */
+    width: 100%;
     height: auto;
     border-bottom: 1px solid #ccc;
 }
