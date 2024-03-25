@@ -2,8 +2,12 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #F1EADE;
     font-family: 'Roboto', sans-serif;
+=======
+    background-color: #ffffff;
+>>>>>>> d26b2608db55d27b17a442d36d1a73522f677708
 }
 
 header img {
@@ -37,6 +41,7 @@ h2,h1 {
 }
       
 
+<<<<<<< HEAD
 #logo {
     margin-left: 20px; 
     display: inline-block;
@@ -220,3 +225,12 @@ img.logo {
     margin: 0 0 0 10px; /* Ajoutez un espacement entre l'image et le texte */
     font-size: 20px;
 }
+=======
+header{
+    height: 10vh;
+    background-color: #F1EADE;
+}
+footer{
+    background-color: #F1EADE;
+}
+>>>>>>> d26b2608db55d27b17a442d36d1a73522f677708
